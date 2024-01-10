@@ -1,0 +1,23 @@
+{
+  "name": "stackblitz-starters-ezwncn",
+  "version": "0.0.0",
+  "private": true,
+  "dependencies": {
+    "@types/react": "18.2.47",
+    "@types/react-dom": "18.2.18",
+    "react": "18.2.0",
+    "react-bootstrap": "^2.9.2",
+    "react-datepicker": "^4.25.0",
+    "react-dom": "18.2.0",
+    "react-input-mask": "^2.0.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "react-scripts": "latest"
+  }
+}
