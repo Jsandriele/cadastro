@@ -81,7 +81,7 @@ span {
   margin-top: 46px;
 }
 
-#checkTermos {
+#checkTermos{
   width: 21px;
   height: 21px;
 }
@@ -110,4 +110,149 @@ button {
   line-height: normal;
   border-radius: 10px;
   background: #5fb24e;
+}
+@media screen and (min-width: 600px) {
+  .Form {
+    padding: 0 2rem;
+    align-items: center;
+  }
+
+  .form_input {
+    max-width: 600px;
+    align-items: center;
+    margin-left: auto;
+  }
+  .header{
+   
+    grid-template-rows: auto;
+  }
+  img{
+    width: 100vw;
+  }
+ 
+  h1 {
+    margin-top: 2rem;
+    
+  }
+
+  .checkBox {
+    margin-top: 2rem;
+    margin-left: 2rem;
+  }
+
+
+  .form_inputs_dados {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  
+
+  
+}
+
+@media screen and (min-width: 768px) {
+  .form_input {
+    max-width: 800px;
+    align-items: center;
+    margin-left: 27px;
+  }
+  .header{
+    
+    flex-direction: rows;
+  }
+  img{
+    width: 100vw;
+  }
+ 
+  h1 {
+    margin-top: 2rem;
+    
+  }
+
+  .checkBox {
+    margin-top: 2rem;
+    margin-left: 2rem;
+  }
+
+
+  .form_inputs_dados {
+    grid-template-columns: repeat(1, 1fr);
+    align-items: center;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .form_input {
+    max-width: 1000px;
+    margin-left: 82px;
+    align-items: center;
+  }
+
+ 
+  .form_inputs_dados {
+    grid-template-columns: repeat(1, 1fr);
+    align-items: center;
+    grid-gap: 2rem;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .Form{
+    width: 100vw;
+    align-items: center;
+  }
+  .form_input {
+    max-width: 1231px;
+    align-items: center;
+    margin: 82pxauto;
+  }
+ .header{
+  flex-direction: row-reverse;
+ }
+ 
+}
+
+@media screen and (max-width: 480px) {
+  .Form{
+    width: 461px;
+  }
+  .form_input{
+    margin-left: 27px;
+  }
+  
+  h1 {
+    margin-top: 1rem;
+  }
+
+  .checkBox {
+    margin-top: 1rem;
+    margin-left: 1rem;
+  }
+
+  .form_inputs_dados {
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 1rem;
+    margin-left: 1rem;
+  }
+
+  .form_inputs_dados input {
+    width: 100%;
+    margin-right: 0;
+  }
+
+  .form_check_termos {
+    width: 100%;
+    margin-top: 1rem;
+  }
+
+  .checkTermostext {
+    width: 100%;
+    margin-top: 1rem;
+    font-size: 1rem;
+  }
+
+  button {
+    width: 100%;
+    max-width: 100%;
+    margin-left: 0;
+  }
 }
